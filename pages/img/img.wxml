@@ -1,0 +1,51 @@
+<!--pages/img/img.wxml-->
+<view class="page-body">
+  <view class="page-section">
+    <view class = "title1">🌟2021年四班集团春节特别活动-预告片🌟</view>
+    <video class="videopart1"
+      id="myVideo" 
+      src="http://47.243.23.29:8080/sicp2021video.mp4" 
+      binderror="videoErrorCallback" 
+      danmu-list="{{danmuList}}" 
+      enable-danmu 
+      danmu-btn 
+      show-center-play-btn='{{false}}' 
+      show-play-btn="{{true}}" 
+      show-mute-btn="ture"
+      loop="true"
+      controls
+      picture-in-picture-mode="{{['push', 'pop']}}"
+      picture-in-picture-show-progress="true"
+      bindenterpictureinpicture='bindVideoEnterPictureInPicture'
+      bindleavepictureinpicture='bindVideoLeavePictureInPicture'
+    ></video>
+    <view class="weui-label">弹幕内容
+      <input bindblur="bindInputBlur" class="weui-input" type="text" placeholder="在此处输入弹幕内容"/>
+    </view>
+   
+    <button bindtap="bindSendDanmu" class="page-lauch-button" type="primary" formType="submit">发送弹幕</button>
+    <navigator style="margin: 30rpx auto"  url="picture-in-picture" hover-class="other-navigator-hover">
+      <button type="primary" class="page-body-button" bindtap="bindPlayVideo">小窗模式</button>
+    </navigator>
+    <view class="line" ><view class="divLine"></view></view>
+    
+    <view class = "title2">🌟2021年四班集团春节特别活动-完整版🌟</view>
+    <video class="videopart2"
+      id="myVideo" 
+      src="http://47.243.23.29/2021.m3u8" 
+      binderror="videoErrorCallback" 
+      danmu-list="{{danmuList}}" 
+      enable-danmu 
+      danmu-btn 
+      show-center-play-btn='{{false}}' 
+      show-play-btn="{{true}}" 
+      show-mute-btn="ture"
+      loop="true"
+      controls
+      picture-in-picture-mode="{{['push', 'pop']}}"
+      picture-in-picture-show-progress="true"
+      bindenterpictureinpicture='bindVideoEnterPictureInPicture'
+      bindleavepictureinpicture='bindVideoLeavePictureInPicture'
+    ></video>
+  </view>
+</view>

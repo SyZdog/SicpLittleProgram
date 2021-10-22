@@ -1,0 +1,51 @@
+{
+  "pages":[ 
+    "pages/img/img",
+    "pages/search/search", 
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/logs/logs" 
+  
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#6495ED",
+    "navigationBarTitleText": "四班集团Online",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh": true,
+    "backgroundColor":"#F0F8FF"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "活动公告",
+      "iconPath": "icon/_home.png",
+      "selectedIconPath": "icon/home.png"
+    },
+    {
+      "pagePath": "pages/img/img",
+      "text": "活动视频",
+      "iconPath": "icon/_videocamera.png",
+      "selectedIconPath": "icon/videocamera.png"
+    },
+    {
+      "pagePath": "pages/search/search",
+      "text": "历年视频",
+      "iconPath": "icon/_search.png",
+      "selectedIconPath": "icon/search.png"
+    },
+    {
+      "pagePath": "pages/mine/mine",
+      "text": "幕后信息",
+      "iconPath": "icon/_my.png",
+      "selectedIconPath": "icon/my.png"
+    }
+  ],
+  "color":"0094ff",
+  "selectedColor":"#FF0000",
+  "backgroundColor": "#F5F5F5",
+  "borderStyle": "black",
+  "position":"bottom"
+  },
+  "sitemapLocation": "sitemap.json"
+}
