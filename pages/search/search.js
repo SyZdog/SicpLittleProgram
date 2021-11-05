@@ -2,10 +2,10 @@ Page({
   data: {
     current_id:'',//当前播放视频id
     videoList:[
-      {id:"1","videoUrl":"http://47.243.23.29:8080/sicp2021over.mp4","poster":"http://47.243.23.29:8081/2021.jpg"},
-      {id:"2","videoUrl":"http://47.243.23.29:8081/sicp2021video.mp4","poster":"http://47.243.23.29:8080/2020.jpg"},
-      {id:"3","videoUrl":"http://47.243.23.29:8081/2019.mp4","poster":"http://47.243.23.29:8081/2019.jpg"},
-      {id:"4","videoUrl":"http://47.243.23.29:8081/2018.mp4","poster":"http://47.243.23.29:8080/2018.jpg"}
+      {id:"1","videoUrl":"http://47.243.23.29/2021.m3u8","poster":"http://47.243.23.29/2021.jpg"},
+      {id:"2","videoUrl":"http://47.243.23.29/2020.mp4","poster":"http://47.243.23.29/2020.jpg"},
+      {id:"3","videoUrl":"http://47.243.23.29:/2019.mp4","poster":"http://47.243.23.29/2019.jpg"},
+      {id:"4","videoUrl":"http://47.243.23.29/2018.mp4","poster":"http://47.243.23.29/2018.jpg"}
     ]
   },
   onLoad: function (options) {

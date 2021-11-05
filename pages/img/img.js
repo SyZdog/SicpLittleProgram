@@ -29,11 +29,11 @@ Page({
     src: '',
     danmuList:
     [{
-      text: '第 1s 出现的弹幕',
+      text: '四班集团欢迎你！',
       color: '#ff0000',
       time: 1
     }, {
-      text: '第 3s 出现的弹幕',
+      text: '四班集团欢迎你！',
       color: '#ff00ff',
       time: 3
     }],

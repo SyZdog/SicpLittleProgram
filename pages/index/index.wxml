@@ -1,13 +1,35 @@
 <!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
+<image class="title" src="/icon/title.png"></image>
+<image class="info" src="/icon/zx.png"></image>
+<image class="logoThree" src="/icon/logoThree.png"></image>
+<image class="star" src="/icon/星形.png"></image>
+<image class="sicpNews" src="/icon/SICPNews.png"></image>
+<view>
+  <swiper class="swiper" autoplay="true" interval="5000" indicator-dots="true">
+    <swiper-item>
+      <image class="first" src="/icon/first.png"></image>
+    </swiper-item>
+    <swiper-item>
+      <image class="second" src="/icon/second.png"></image>
+    </swiper-item>
+    <swiper-item>
+      <image class="threeth" src="/icon/3th.png"></image>
+    </swiper-item>
+  </swiper>
+</view>
+<image class="idlogo" src="/icon/多边形.png"></image>
+<image class="sicpAd" src="/icon/SICPAd.png"></image>
+
+<view>
+  <swiper class="swiperT" autoplay="true" interval="2000">
+    <swiper-item>
+      <image class="one" src="/icon/searchG.png"></image>
+    </swiper-item>
+    <swiper-item>
+      <image class="two" src="/icon/searchW.png"></image>
+    </swiper-item>
+    <swiper-item>
+      <image class="three" src="/icon/searchGr.png"></image>
+    </swiper-item>
+  </swiper>
 </view>

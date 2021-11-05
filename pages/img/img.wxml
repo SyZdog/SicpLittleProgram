@@ -4,14 +4,16 @@
     <view class = "title1">🌟2021年四班集团春节特别活动-预告片🌟</view>
     <video class="videopart1"
       id="myVideo" 
-      src="http://47.243.23.29:8080/sicp2021video.mp4" 
+      src="http://47.243.23.29/2021Elv.mp4" 
       binderror="videoErrorCallback" 
       danmu-list="{{danmuList}}" 
       enable-danmu 
       danmu-btn 
+      direction="0"
       show-center-play-btn='{{false}}' 
       show-play-btn="{{true}}" 
       show-mute-btn="ture"
+      show-center-play-btn="true"
       loop="true"
       controls
       picture-in-picture-mode="{{['push', 'pop']}}"
@@ -32,14 +34,16 @@
     <view class = "title2">🌟2021年四班集团春节特别活动-完整版🌟</view>
     <video class="videopart2"
       id="myVideo" 
-      src="http://47.243.23.29/2021.m3u8" 
+      src="http://47.243.23.29/2021Elv.mp4" 
       binderror="videoErrorCallback" 
       danmu-list="{{danmuList}}" 
       enable-danmu 
       danmu-btn 
+      direction="0"
       show-center-play-btn='{{false}}' 
       show-play-btn="{{true}}" 
       show-mute-btn="ture"
+      show-center-play-btn="true"
       loop="true"
       controls
       picture-in-picture-mode="{{['push', 'pop']}}"

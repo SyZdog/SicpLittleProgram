@@ -1,21 +1,70 @@
 /**index.wxss**/
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.title{
+  margin: 20rpx 228rpx;
+  height: 55rpx;
+  width: 300rpx;
 }
-
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.info{
+  margin: 0rpx 15rpx;
+  height: 88rpx;
+  width: 725rpx;
 }
-
-.userinfo-nickname {
-  color: #aaa;
+.logoThree{
+  margin: 25rpx 15rpx;
+  height: 180rpx;
+  width: 725rpx;
 }
-
-.usermotto {
-  margin-top: 20px;
+.star{
+  margin: 10rpx 15rpx;
+  height: 60rpx;
+  width: 60rpx;
+}
+.sicpNews{
+  margin: 10rpx -5rpx;
+  height: 50rpx;
+  width: 300rpx;
+}
+.swiper {
+  margin: 15rpx;
+  width: 725rpx;
+  height: 500rpx;
+}
+.first{
+  width: 725rpx;
+  height: 460rpx;
+}
+.second{
+  width: 725rpx;
+  height: 460rpx;
+}
+.threeth{
+  width: 725rpx;
+  height: 460rpx;
+}
+.idlogo{
+  margin: 15rpx 15rpx;
+  height: 60rpx;
+  width: 60rpx;
+}
+.sicpAd{
+  margin: 15rpx -5rpx;
+  height: 60rpx;
+  width: 240rpx;
+}
+.swiperT {
+  margin: 15rpx;
+  width: 725rpx;
+  height: 160rpx;
+}
+.one{
+  width: 725rpx;
+  height: 120rpx;
+}
+.two{
+  width: 725rpx;
+  height: 120rpx;
+}
+.three{
+  width: 725rpx;
+  height: 120rpx;
 }
