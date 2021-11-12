@@ -7,13 +7,13 @@
 <view>
   <swiper class="swiper" autoplay="true" interval="5000" indicator-dots="true">
     <swiper-item>
-      <image class="first" src="/icon/first.png"></image>
+      <image class="first" src="/icon/lidong.png"></image>
     </swiper-item>
     <swiper-item>
-      <image class="second" src="/icon/second.png"></image>
+      <image class="second" src="/icon/new_top.png"></image>
     </swiper-item>
     <swiper-item>
-      <image class="threeth" src="/icon/3th.png"></image>
+      <image class="threeth" src="/icon/first.png"></image>
     </swiper-item>
   </swiper>
 </view>

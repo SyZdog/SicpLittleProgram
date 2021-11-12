@@ -4,12 +4,12 @@
     <view class = "title1">🌟2021年四班集团春节特别活动-预告片🌟</view>
     <video class="videopart1"
       id="myVideo" 
-      src="http://47.243.23.29/2021Elv.mp4" 
+      src="http://47.243.23.29/2021Elv/2021Elv.m3u8" 
       binderror="videoErrorCallback" 
       danmu-list="{{danmuList}}" 
       enable-danmu 
       danmu-btn 
-      direction="0"
+      direction="90"
       show-center-play-btn='{{false}}' 
       show-play-btn="{{true}}" 
       show-mute-btn="ture"
@@ -34,12 +34,12 @@
     <view class = "title2">🌟2021年四班集团春节特别活动-完整版🌟</view>
     <video class="videopart2"
       id="myVideo" 
-      src="http://47.243.23.29/2021Elv.mp4" 
+      src="http://47.243.23.29/2021/2021.m3u8" 
       binderror="videoErrorCallback" 
       danmu-list="{{danmuList}}" 
       enable-danmu 
       danmu-btn 
-      direction="0"
+      direction="90"
       show-center-play-btn='{{false}}' 
       show-play-btn="{{true}}" 
       show-mute-btn="ture"

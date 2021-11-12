@@ -2,10 +2,10 @@ Page({
   data: {
     current_id:'',//当前播放视频id
     videoList:[
-      {id:"1","videoUrl":"http://47.243.23.29/2021.m3u8","poster":"http://47.243.23.29/2021.jpg"},
-      {id:"2","videoUrl":"http://47.243.23.29/2020.mp4","poster":"http://47.243.23.29/2020.jpg"},
-      {id:"3","videoUrl":"http://47.243.23.29:/2019.mp4","poster":"http://47.243.23.29/2019.jpg"},
-      {id:"4","videoUrl":"http://47.243.23.29/2018.mp4","poster":"http://47.243.23.29/2018.jpg"}
+      {id:"1","videoUrl":"http://47.243.23.29/2021/2021.m3u8","poster":"http://47.243.23.29/2021/2021.jpg"},
+      {id:"2","videoUrl":"http://47.243.23.29/2020/2020.m3u8","poster":"http://47.243.23.29/2020/2020.jpg"},
+      {id:"3","videoUrl":"http://47.243.23.29/2019/2019.m3u8","poster":"http://47.243.23.29/2019/2019.jpg"},
+      {id:"4","videoUrl":"http://47.243.23.29/2018/2018.m3u8","poster":"http://47.243.23.29/2018/2018.jpg"}
     ]
   },
   onLoad: function (options) {
