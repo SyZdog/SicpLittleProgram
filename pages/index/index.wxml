@@ -1,35 +1,41 @@
 <!--index.wxml-->
-<image class="title" src="/icon/title.png"></image>
-<image class="info" src="/icon/zx.png"></image>
-<image class="logoThree" src="/icon/logoThree.png"></image>
-<image class="star" src="/icon/星形.png"></image>
-<image class="sicpNews" src="/icon/SICPNews.png"></image>
+<image class="title" src="/icon/title.jpg"></image>
+<image class="info" src="/icon/zx.jpg"></image>
+<image class="logoThree" src="/icon/logoThree.jpg"></image>
+<image class="star" src="/icon/星形.jpg"></image>
+<image class="sicpNews" src="/icon/SICPNews.jpg"></image>
 <view>
   <swiper class="swiper" autoplay="true" interval="5000" indicator-dots="true">
     <swiper-item>
-      <image class="first" src="/icon/lidong.png"></image>
+      <navigator url="../linkedOne/linkedOne?title=微信公众号文章" open-type="redirect" hover-class="One-navigator-hover"> 
+        <image class="first" src="http://47.243.23.29/newsImage/one.jpg"></image>
+      </navigator>
     </swiper-item>
     <swiper-item>
-      <image class="second" src="/icon/new_top.png"></image>
+      <navigator url="../linkedTwo/linkedTwo?title=微信公众号文章" open-type="redirect" hover-class="Two-navigator-hover"> 
+        <image class="second" src="http://47.243.23.29/newsImage/two.jpg"></image>
+      </navigator>
     </swiper-item>
     <swiper-item>
-      <image class="threeth" src="/icon/first.png"></image>
+      <navigator url="../linkedThree/linkedThree?title=微信公众号文章" open-type="redirect" hover-class="Three-navigator-hover"> 
+        <image class="threeth" src="http://47.243.23.29/newsImage/three.jpg"></image>
+      </navigator>
     </swiper-item>
   </swiper>
 </view>
-<image class="idlogo" src="/icon/多边形.png"></image>
-<image class="sicpAd" src="/icon/SICPAd.png"></image>
+<image class="idlogo" src="/icon/多边形.jpg"></image>
+<image class="sicpAd" src="/icon/SICPAd.jpg"></image>
 
 <view>
   <swiper class="swiperT" autoplay="true" interval="2000">
     <swiper-item>
-      <image class="one" src="/icon/searchG.png"></image>
+      <image class="one" src="/icon/searchG.jpg"></image>
     </swiper-item>
     <swiper-item>
-      <image class="two" src="/icon/searchW.png"></image>
+      <image class="two" src="/icon/searchW.jpg"></image>
     </swiper-item>
     <swiper-item>
-      <image class="three" src="/icon/searchGr.png"></image>
+      <image class="three" src="/icon/searchGr.jpg"></image>
     </swiper-item>
   </swiper>
 </view>

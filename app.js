@@ -53,7 +53,7 @@ App({
   updateBlogs1: function () {
     var that = this
     wx.request({
-      url: 'http://http://47.243.23.29:8080/sicp2021video.mp4',
+      url: 'http://47.243.23.29/2021Elv/2021Elv.m3u8',
       data: {
       },
       header: {
@@ -67,7 +67,7 @@ App({
   updateBlogs2: function () {
     var that = this
     wx.request({
-      url: 'http://47.243.23.29:8080/sicp2021over.mp4',
+      url: 'http://47.243.23.29/2021/2021.m3u8',
       data: {
       },
       header: {

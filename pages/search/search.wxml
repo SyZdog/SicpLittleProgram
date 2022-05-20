@@ -16,7 +16,7 @@
             </view>
         </view>
         <view class="actionBtn">
-            <image class="img" src="../images/upload.png" data-url="{{item.videoUrl}}" mode="aspectFit" bindtap="toUploadVideo"></image>
+            <image class="img" src="../images/upload.jpg" data-url="{{item.videoUrl}}" mode="aspectFit" bindtap="toUploadVideo"></image>
         </view>
     </view>
 </view>

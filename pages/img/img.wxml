@@ -1,10 +1,35 @@
 <!--pages/img/img.wxml-->
 <view class="page-body">
   <view class="page-section">
-    <view class = "title1">🌟2021年四班集团春节特别活动-预告片🌟</view>
+    <view class = "title1">🌟2022年四班集团春节特别活动🌟</view>
     <video class="videopart1"
       id="myVideo" 
-      src="http://47.243.23.29/2021Elv/2021Elv.m3u8" 
+      src="http://47.243.23.29/2022SFSE/2022SFSE_B.m3u8" 
+      binderror="videoErrorCallback" 
+      danmu-list="{{danmuList}}" 
+      enable-danmu 
+      danmu-btn 
+      direction="90"
+      show-center-play-btn='{{false}}' 
+      show-play-btn="{{true}}" 
+      show-mute-btn="ture"
+      show-center-play-btn="true"
+      loop="true"
+      controls
+      picture-in-picture-mode="{{['push', 'pop']}}"
+      picture-in-picture-show-progress="true"
+      bindenterpictureinpicture='bindVideoEnterPictureInPicture'
+      bindleavepictureinpicture='bindVideoLeavePictureInPicture'
+    ></video>
+    <view class="line" >
+      <view class="divLine"></view>
+    </view>
+  </view>
+  <view>
+    <view class = "title2">🌟2022年四班集团冬季新品发布会🌟</view>
+    <video class="videopart2"
+      id="myVideo" 
+      src="http://47.243.23.29/2022FBH/2022_1.m3u8" 
       binderror="videoErrorCallback" 
       danmu-list="{{danmuList}}" 
       enable-danmu 
@@ -24,32 +49,9 @@
     <view class="weui-label">弹幕内容
       <input bindblur="bindInputBlur" class="weui-input" type="text" placeholder="在此处输入弹幕内容"/>
     </view>
-   
     <button bindtap="bindSendDanmu" class="page-lauch-button" type="primary" formType="submit">发送弹幕</button>
     <navigator style="margin: 30rpx auto"  url="picture-in-picture" hover-class="other-navigator-hover">
       <button type="primary" class="page-body-button" bindtap="bindPlayVideo">小窗模式</button>
     </navigator>
-    <view class="line" ><view class="divLine"></view></view>
-    
-    <view class = "title2">🌟2021年四班集团春节特别活动-完整版🌟</view>
-    <video class="videopart2"
-      id="myVideo" 
-      src="http://47.243.23.29/2021/2021.m3u8" 
-      binderror="videoErrorCallback" 
-      danmu-list="{{danmuList}}" 
-      enable-danmu 
-      danmu-btn 
-      direction="90"
-      show-center-play-btn='{{false}}' 
-      show-play-btn="{{true}}" 
-      show-mute-btn="ture"
-      show-center-play-btn="true"
-      loop="true"
-      controls
-      picture-in-picture-mode="{{['push', 'pop']}}"
-      picture-in-picture-show-progress="true"
-      bindenterpictureinpicture='bindVideoEnterPictureInPicture'
-      bindleavepictureinpicture='bindVideoLeavePictureInPicture'
-    ></video>
   </view>
 </view>

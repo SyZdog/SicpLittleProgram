@@ -9,6 +9,12 @@ Page({
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
+
+  onLoad: function (options) {
+    this.setData({
+      title: options.title
+    })
+  },
   // 事件处理函数
   bindViewTap() {
     wx.navigateTo({

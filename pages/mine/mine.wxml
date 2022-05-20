@@ -1,16 +1,26 @@
 <!--pages/mine/mine.wxml-->
-<view>
-  <open-data type="userAvatarUrl"></open-data>
-  <open-data type="userNickName"></open-data>
-  <open-data type="userGender" lang="zh_CN"></open-data>
-  <open-data type="userCity"></open-data>
-  <open-data type="userProvince"></open-data>
-  <open-data type="userCountry"></open-data>
-  <open-data type="userLanguage"></open-data>
-</view>
-<view>
-  <text class="title">hello {{name}}</text>
-  <button open-type="getUserInfo" bind:getuserinfo="buttonHandler">
-    授权获取用户个人信息
-  </button>
+<view class="container">
+  
+  <view class="userinfo">
+    <block class="button" wx:if="{{!hasUserInfo}}">
+      <button class="button" wx:if="{{canIUseGetUserProfile}}" bindtap="getUserProfile"> 点击获取“头像、昵称” </button>
+    </block>
+    <block wx:else>
+      <image class="hello" src="/icon/Hello.jpg"></image>
+      <text class="userinfo-nickname">昵称：{{userInfo.nickName}}</text>
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+    </block>
+  </view>
+  <image class="logo" src="/icon/sb.jpg"></image>
+  <image class="login" src="/icon/登录.jpg"></image>
+  
+
+  <view class="bossInfo">
+    <block class="button2" wx:if="{{!buttonExist}}">
+      <button class="button2" bindtap="getImge" >点击获取四班集团管理层信息</button>
+    </block>
+    <block wx:else>
+      <image class="getBossInfo" src="http://47.243.23.29/Img/gaoguan.jpg"></image>
+    </block>
+  </view>
 </view>

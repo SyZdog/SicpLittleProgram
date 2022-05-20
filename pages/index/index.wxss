@@ -68,3 +68,6 @@
   width: 725rpx;
   height: 120rpx;
 }
+.other-navigator-hover {
+  color:red;
+}

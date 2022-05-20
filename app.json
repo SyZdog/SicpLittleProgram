@@ -2,9 +2,11 @@
   "pages":[ 
     "pages/index/index",
     "pages/img/img",
-    "pages/search/search", 
-    "pages/mine/mine"
-  
+    "pages/search/search",
+    "pages/mine/mine",
+    "pages/linkedOne/linkedOne",
+    "pages/linkedTwo/linkedTwo",
+    "pages/linkedThree/linkedThree"
   ],
   "window":{
     "backgroundTextStyle":"dark",
@@ -18,26 +20,26 @@
     "list": [{
       "pagePath": "pages/index/index",
       "text": "活动公告",
-      "iconPath": "icon/_home.png",
-      "selectedIconPath": "icon/home.png"
+      "iconPath": "icon/_home.jpg",
+      "selectedIconPath": "icon/home.jpg"
     },
     {
       "pagePath": "pages/img/img",
       "text": "活动视频",
-      "iconPath": "icon/_videocamera.png",
-      "selectedIconPath": "icon/videocamera.png"
+      "iconPath": "icon/_videocamera.jpg",
+      "selectedIconPath": "icon/videocamera.jpg"
     },
     {
       "pagePath": "pages/search/search",
       "text": "历年视频",
-      "iconPath": "icon/_search.png",
-      "selectedIconPath": "icon/search.png"
+      "iconPath": "icon/_search.jpg",
+      "selectedIconPath": "icon/search.jpg"
     },
     {
       "pagePath": "pages/mine/mine",
-      "text": "幕后信息",
-      "iconPath": "icon/_my.png",
-      "selectedIconPath": "icon/my.png"
+      "text": "信息中心",
+      "iconPath": "icon/_my.jpg",
+      "selectedIconPath": "icon/my.jpg"
     }
   ],
   "color":"0094ff",
